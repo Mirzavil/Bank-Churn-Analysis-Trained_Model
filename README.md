@@ -1,8 +1,13 @@
 # 📊 Customer Churn Analysis & Prediction
 
 ## 📌 Project Overview
-This project explores customer churn using a dataset of **10,000 entries** sourced from Kaggle.  
-It combines **data analysis** (SQL, Excel, Power BI) with a **machine learning pipeline** (Python, scikit-learn, XGBoost, LightGBM, Gradient Boosting) to predict churn and demonstrate real-world applicability.
+This project explores customer churn using a dataset of 10,000 entries sourced from Kaggle.  
+It combines data analysis (SQL, Excel, Power BI) with a machine learning pipeline (Python, scikit-learn, XGBoost, LightGBM, Gradient Boosting) to predict churn and demonstrate real-world applicability.
+
+After developing and benchmarking multiple models, the final Gradient Boosting classifier was selected for deployment.  
+To showcase practical use, a custom software solution was created that connects to the customer database and updates records in real time.  
+This application flags churn‑risk customers as data is updated, allowing to visualize real life usage of this model.  
+The workflow therefore spans the full lifecycle: **exploration → visualization → modeling → deployment → real-time prediction**.
 
 ---
 
